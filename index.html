@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+<div class="hero">
+    <div class="container">
+        <div class="grid">
+            <div class="settings-block">
+                <label for="vertical" class="label"> Vertical</label>
+                <input type="range" class = "vertical line" max="50" min="-100" value="0" id="vertical">
+                <label for="horizontal" class="label"> Horizontal</label>
+                <input type="range" class = "horizontal line" max="50" min="-100" value="0" id="horizontal">
+                <label for="blur" class="label"> Spread</label>
+                <input type="range" class = "blur line" max="50" value="0" id="blur">
+                <label for="spread" class="label"> Blur</label>
+                <input type="range" class = "spread line" max="50" value="0" id="spread">
+                <label for="color" class="label"> Color</label>
+                <input type="color" class = "color line" max="50" value="#EFEF75" id="color">
+            </div>
+            <div class="box">
+                <div class="box_shadow_code">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
